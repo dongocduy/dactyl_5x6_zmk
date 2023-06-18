@@ -19,5 +19,3 @@ include:
     shield: dactyl_manuform_5x6_left
   - board: nrfmicro_13
     shield: dactyl_manuform_5x6_right
-  - board: nrfmicro_13
-    shield: settings_reset
