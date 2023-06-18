@@ -8,6 +8,19 @@
 #define RSE 2
 #define ADJ 3
 
+#define HYPER(key) LS(LC(LA(LG(key))))
+#define MEH(key)   LS(LC(LA(key)))
+
+&sl {
+release-after-ms = <5000>;
+};
+
+
+&kscan0 {
+debounce-press-ms = <30>;
+debounce-release-ms = <30>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
