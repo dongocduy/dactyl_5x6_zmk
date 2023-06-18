@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/Katona/
     - name: luna
       url-base: https://github.com/pitchayath/
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
