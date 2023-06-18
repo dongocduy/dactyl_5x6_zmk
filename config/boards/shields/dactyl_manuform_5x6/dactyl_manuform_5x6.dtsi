@@ -47,11 +47,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)                   RC(3,11) RC(3,
     };
 };
 
-&i2c0 {
-    compatible = "nordic,nrf-twi";
-    pinctrl-0 = <&i2c0_default>;
-    pinctrl-1 = <&i2c0_sleep>;
-    pinctrl-names = "default", "sleep";
+&pro_micro_i2c {
     status = "okay";
 
     oled: ssd1306@3c {
@@ -64,8 +60,8 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)                   RC(3,11) RC(3,
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <31>;
-        //segment-remap;
-        //com-invdir;
+        segment-remap;
+        com-invdir;
         com-sequential;
         prechargep = <0x22>;
     };

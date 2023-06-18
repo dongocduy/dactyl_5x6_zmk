@@ -20,10 +20,6 @@ if SHIELD_DACTYL_MANUFORM_5x6_LEFT || SHIELD_DACTYL_MANUFORM_5x6_RIGHT
     config ZMK_SPLIT
         default y
 
-    config ZMK_DISPLAY
-        default y
-
-
 endif
 
 if ZMK_DISPLAY
