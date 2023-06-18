@@ -13,7 +13,7 @@
 #
 ---
 include:
-  - board: bluemicro840_v1
+  - board: nrfmicro_13
     shield: dactyl_manuform_5x6_left
-  - board: bluemicro840_v1
+  - board: nrfmicro_13
     shield: dactyl_manuform_5x6_right
