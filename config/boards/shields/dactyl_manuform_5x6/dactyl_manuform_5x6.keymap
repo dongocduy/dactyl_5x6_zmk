@@ -8,6 +8,15 @@
 #define RSE 2
 #define ADJ 3
 
+&sl {
+release-after-ms = <5000>;
+};
+
+&kscan0 {
+debounce-press-ms = <30>;
+debounce-release-ms = <30>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
