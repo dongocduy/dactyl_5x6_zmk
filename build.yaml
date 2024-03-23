@@ -15,7 +15,7 @@
 
 
 include:
-  - board: nrfmicro_13
+  - board: nice_nano
     shield: dactyl_manuform_5x6_left
-  - board: nrfmicro_13
+  - board: nice_nano
     shield: dactyl_manuform_5x6_right
