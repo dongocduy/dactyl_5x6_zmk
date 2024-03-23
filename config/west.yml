@@ -10,10 +10,12 @@ manifest:
       url-base: https://github.com/pitchayath/
     - name: urob
       url-base: https://github.com/urob
+    - name: nguyendown
+      url-base: https://github.com/nguyendown
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: nguyendown
+      revision: display/bongo-cat-widget
       import: app/west.yml
   self:
     path: config
